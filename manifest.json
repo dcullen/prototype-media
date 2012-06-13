@@ -1,0 +1,23 @@
+{
+    "name": "Vido",
+    "description": "Media Prototype app for Brightcove App Cloud",
+    "version": "1.0",
+    "devices": [
+        "iPad"
+    ],
+    "platformConfig": {
+        "android": {
+            "nativeNavigation": "false"
+        },
+        "iOS": {
+            "nativeNavigation": "false"
+        }
+    },
+    "views": [
+        {
+            "navigationTitle": "Loading",
+            "navigationIcon": "images/icons/home.png",
+            "uri": "app.html"
+        }
+    ]
+}
