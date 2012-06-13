@@ -89,38 +89,7 @@ video_init = function(){
     currentShow = 0;
     showCount = 5;
     shows = 
-        {
-           0 : { 
-            showName : 'Revolution',
-            showTwitter : 'NBCRevolution',
-            showVideo : 'http://brightcove.vo.llnwd.net/pd22/media/1403111656001/1403111656001_1638392572001_94007-REVOLUTION-DIGITAL-VE1280X720.mp4'
-            },
-           1 : { 
-            showName : 'Go On',
-            showTwitter : 'NBCGo_On',
-            showVideo : 'http://brightcove.vo.llnwd.net/pd22/media/1403111656001/1403111656001_1638358695001_94008-GO-ON-DIGITAL-VER1280X720.mp4'
-            },
-           2 : { 
-            showName : 'Chicago Fire',
-            showTwitter : 'NBCChicagoFire',
-            showVideo : 'http://brightcove.vo.llnwd.net/pd22/media/1403111656001/1403111656001_1637973274001_94018-CHICAGO-FIRE-DIGITAL-VER-1280X720.mp4'
-            },
-           3 : { 
-            showName : 'Animal Practice',
-            showTwitter : 'AnimalPractice',
-            showVideo : 'http://brightcove.vo.llnwd.net/pd22/media/1403111656001/1403111656001_1638351504001_94009-ANIMAL-PRACTICE-DIGITAL-VER1280X720.mp4'
-            },
-           4 : { 
-            showName : 'Guys With Kids',
-            showTwitter : 'NBCGuysWithKids',
-            showVideo : 'http://brightcove.vo.llnwd.net/pd22/media/1403111656001/1403111656001_1638134116001_94013-GUYS-WITH-KIDS-DIGITAL-VER1280X720.mp4'
-            },
-           5 : { 
-            showName : 'The New Normal',
-            showTwitter : 'NBCTheNewNormal',
-            showVideo : 'http://brightcove.vo.llnwd.net/pd22/media/1403111656001/1403111656001_1638132543001_94010-THE-NEW-NORMAL-DIGITAL-VER-1280X720.mp4'
-            } 
-        };
+        {};
 
     $('#video').show();
     /**
